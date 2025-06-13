@@ -1,0 +1,105 @@
+:root{
+    --color1: #D6FF79;
+    --color2: #B0FF92;
+    --color3: #FFF2F1;
+    --color4: #A09BE7;
+    --color5: #5F00BA;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color5);
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color2);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.AppTarea{
+    background-color: var(--color3);
+    border-radius: 15px;
+    padding: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 40px;
+}
+
+#agregarTarea{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+#inputTarea{
+    margin-right: 15px;
+    width: 250px;
+    padding: 15px;
+    border: none;
+    
+}
+
+input:focus, input:active{ 
+    outline: 3px solid var(--color4);
+}
+
+#btn-add{
+    padding: 15px;
+    background-color: var(--color2);
+}
+
+
+
+
+table{
+    width: 100%;
+}
+
+
+.resultado-lista{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tarea{
+    width: 70%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.check{
+    width: 15%;
+    text-align: center;
+}
+.remove{
+    width: 15%;
+    text-align: center;
+}
+
+button{
+    border: none;
+    background-color: var(--color3);
+}
+
+td,th{
+    padding: 5px;
+}
