@@ -1,9 +1,9 @@
 :root{
-    --color1: #D6FF79;
-    --color2: #B0FF92;
-    --color3: #FFF2F1;
-    --color4: #A09BE7;
-    --color5: #5F00BA;
+    --color1: #2CA58D;
+    --color2: #0A2342;
+    --color3: #F3D8C7;
+    --color4: #84BC9C;
+    --color5: #815355;
 }
 
 
@@ -55,6 +55,7 @@
     width: 250px;
     padding: 15px;
     border: none;
+    border-radius: 10px 0 0 10px;
     
 }
 
@@ -64,7 +65,8 @@ input:focus, input:active{
 
 #btn-add{
     padding: 15px;
-    background-color: var(--color2);
+    background-color: var(--color1);
+    border-radius: 0 10px 10px 0;
 }
 
 
